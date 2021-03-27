@@ -1,5 +1,6 @@
 package com.example.imgurapi.interfaces
 
+import com.example.imgurapi.responses.AlbumResponse
 import com.example.imgurapi.responses.GalleryResponse
 import retrofit2.http.GET
 import retrofit2.http.Path
@@ -14,6 +15,6 @@ interface ImgurApi {
 
     @GET("album/{albumHash}")
     suspend fun getAlbum(
-
-    )
+        @Path("albumHash") albumHash: String
+    ): AlbumResponse
 }

@@ -1,4 +1,4 @@
-package com.example.imgurapp.listadapters
+ package com.example.imgurapp.listadapters
 
 import android.widget.ListAdapter
 
