@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_new">
 
     <fragment
         android:id="@+id/navigation_new"
-        android:name="com.example.imgurapp.ui.home.HomeFragment"
+        android:name="com.example.imgurapp.ui.new.NewFragment"
         android:label="@string/title_new"
         tools:layout="@layout/fragment_new" />
 
     <fragment
         android:id="@+id/navigation_trending"
-        android:name="com.example.imgurapp.ui.dashboard.DashboardFragment"
+        android:name="com.example.imgurapp.ui.trending.TrendingFragment"
         android:label="@string/title_trending"
         tools:layout="@layout/fragment_trending" />
 
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="com.example.imgurapp.ui.notifications.NotificationsFragment"
+        android:name="com.example.imgurapp.ui.profile.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
 </navigation>
