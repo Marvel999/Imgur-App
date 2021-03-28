@@ -33,7 +33,7 @@ class NewFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        newViewModel.getAlubm()
+//        newViewModel.getAlubm()
     }
 
     override fun onDestroyView() {

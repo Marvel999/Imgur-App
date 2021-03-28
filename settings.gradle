@@ -1,3 +1,2 @@
 rootProject.name = "Imgur App"
 include ':app'
-include ':ImgurApi'
